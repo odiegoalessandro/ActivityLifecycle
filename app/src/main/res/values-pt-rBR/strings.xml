@@ -3,4 +3,8 @@
     <string name="app_name">Lifecycle</string>
     <string name="open">Abrir</string>
     <string name="name">nome</string>
+    <string name="open_another_screen">Abrir em  outra tela</string>
+    <string name="result">Resultado</string>
+    <string name="send">Enviar</string>
+    <string name="enter_a_name">Digite um nome</string>
 </resources>

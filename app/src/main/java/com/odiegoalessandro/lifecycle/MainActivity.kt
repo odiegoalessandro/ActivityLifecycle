@@ -8,8 +8,6 @@ import android.widget.Button
 import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
-
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -19,6 +17,12 @@ class MainActivity : AppCompatActivity() {
         val btOpen = findViewById<Button>(R.id.btOpen)
         btOpen.setOnClickListener {
             val intent = Intent(this, MainActivity2::class.java)
+            startActivity(intent)
+        }
+
+        val btOpen2 = findViewById<Button>(R.id.btOpen2)
+        btOpen2.setOnClickListener {
+            val intent = Intent(this, SaveInstanceExampleActivity::class.java)
             startActivity(intent)
         }
     }

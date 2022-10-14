@@ -2,4 +2,8 @@
     <string name="app_name">Lifecycle</string>
     <string name="open">Open</string>
     <string name="name">name</string>
+    <string name="open_another_screen">Open another screen</string>
+    <string name="result">Result</string>
+    <string name="send">Send</string>
+    <string name="enter_a_name">Enter a name</string>
 </resources>
